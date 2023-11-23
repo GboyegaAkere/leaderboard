@@ -5,6 +5,7 @@ import './App.css'
 import { IoNotificationsOutline } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
+import Gold from "../src/assets/images/Gold.png"
 
 
 export default function App() {
@@ -43,6 +44,28 @@ export default function App() {
           <option value="daily">Daily</option>
         </select>
       </div>
+    </div>
+
+    <div className="mt-10">
+      <table className="w-full bg-white border-collapse ml-[100px]">
+        <thead>
+          <tr>
+            <th className="border-b-2 border-gray-300 p-3 text-left">Rank</th>
+            <th className="border-b-2 border-gray-300 p-3 text-left">Username</th>
+            <th className="border-b-2 border-gray-300 p-3 text-left">Invite Count</th>
+            <th className="border-b-2 border-gray-300 p-3 text-left">Token Rewarded</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td className="border-b border-gray-300 p-3 text-left"><img src={Gold} alt="" /></td>
+            <td className="border-b border-gray-300 p-3 text-left">Gboyega</td>
+            <td className="border-b border-gray-300 p-3 text-left"></td>
+            <td className="border-b border-gray-300 p-3 text-left"></td>
+          </tr>
+          {/* Add more rows as needed */}
+        </tbody>
+      </table>
     </div>
     </>
   )
