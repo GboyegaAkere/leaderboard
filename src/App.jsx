@@ -15,6 +15,7 @@ export default function App() {
         <div className='w-20 h-20 bg-white rounded-full flex items-center justify-center'>
           <p>LOGO</p>
         </div>
+        <p>Home</p>
         <p>Discord</p>
         <p>Leaderboard</p>
       </div>
