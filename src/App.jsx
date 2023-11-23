@@ -6,6 +6,7 @@ import { IoNotificationsOutline } from "react-icons/io5";
 import { CiUser } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
 import Gold from "../src/assets/images/Gold.png"
+import { FaChevronDown } from "react-icons/fa";
 
 
 export default function App() {
@@ -50,7 +51,7 @@ export default function App() {
       <table className="w-full bg-white border-collapse ml-[100px]">
         <thead>
           <tr>
-            <th className="border-b-2 border-gray-300 p-3 text-left">Rank</th>
+            <th className="border-b-2 border-gray-300 p-3 text-left flex flex-row items-center gap-2">Rank<FaChevronDown/></th>
             <th className="border-b-2 border-gray-300 p-3 text-left">Username</th>
             <th className="border-b-2 border-gray-300 p-3 text-left">Invite Count</th>
             <th className="border-b-2 border-gray-300 p-3 text-left">Token Rewarded</th>
